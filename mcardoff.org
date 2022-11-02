@@ -22,8 +22,7 @@ I am a first year graduate student at Brandeis University, aspiring to study Exp
 :PROPERTIES:
 :UNNUMBERED: t
 :END
-:
-# TODO: ADD DESCRIPTIONS
+
 Most of my projects for either fun or classes can be found on my [[https://github.com/mcardoff][github]] but here are some of the highlights
 ** Numerical Solver for the Schrodinger Equation
 *** Matrix Method
