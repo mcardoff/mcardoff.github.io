@@ -1,7 +1,7 @@
 #+TITLE: Michael Cardiff
 #+DESCRIPTION: Michael Cardiff Personal Site
 #+AUTHOR: Michael Cardiff
-#+EXPORT_FILE_NAME: /home/mcard/repos/mcardoff.github.io/mcardoff.html
+#+EXPORT_FILE_NAME: /home/mcard/repos/mcardoff.github.io/index.html
 * Michael Cardiff
 #+html: <p align="center"><img src="./me.jpg" /></p>
 Reach me at one of the following emails:
