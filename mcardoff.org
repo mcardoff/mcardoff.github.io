@@ -3,6 +3,9 @@
 #+AUTHOR: Michael Cardiff
 #+EXPORT_FILE_NAME: /home/mcard/repos/mcardoff.github.io/mcardoff.html
 * Michael Cardiff
+#+html: <p align="center"><img src="./me.jpg" /></p>
 Reach me at one of the following emails:
 - _mcardiff@brandeis.edu_ (preferred)
 - _mcardiff@hawk.iit.edu_
+* Who am I?
+I am a first year graduate student at Brandeis University, aspiring to study 
