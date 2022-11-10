@@ -2,31 +2,24 @@
 #+DESCRIPTION: Michael Cardiff Personal Site
 #+AUTHOR: Michael Cardiff
 #+EXPORT_FILE_NAME: /home/mcard/repos/mcardoff.github.io/index.html
-#+OPTIONS: toc:nil
+#+OPTIONS: toc:nil, num:nil, tex:t
 * Michael Cardiff
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-#+begin_src html
-<p align="center"><img src="./me.jpg" /></p>
-#+end_src
+
+[[file:./me.jpg]]
+
 Reach me at one of the following emails:
 - _mcardiff@brandeis.edu_ (preferred)
 - _mcardiff@hawk.iit.edu_
 * Who am I?
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
 I am a first year graduate student at Brandeis University, aspiring to study Experimental High Energy Physics
 * Interesting Projects
-:PROPERTIES:
-:UNNUMBERED: t
-:END
-
 Most of my projects for either fun or classes can be found on my [[https://github.com/mcardoff][github]] but here are some of the highlights
 ** Numerical Solver for the Schrodinger Equation
+Both of these solvers solve the Schrodinger Equation in 1-D for an arbitrary potential, in a box going from $x=0$ to $a$
 *** Matrix Method
+Using the standard particle in a box states of sine functions, compute a Hamiltonian matrix $H$, and diagonalize it
 *** RK4 Method
+Simply solve the Schrodinger Differential equation numerically, using the Runge-Kutta 4 method.
 ** Racing Line Simulator Using Gradient Descent
 ** Koch Snowflake Fractal Generator
 ** Sorting Algorithm Visualizer

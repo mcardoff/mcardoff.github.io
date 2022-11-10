@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-11-02 Wed 14:33 -->
+<!-- 2022-11-02 Wed 14:52 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Michael Cardiff</title>
@@ -194,17 +194,40 @@
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { }
 </style>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content" class="content">
 <h1 class="title">Michael Cardiff</h1>
-<div id="outline-container-orgeac993a" class="outline-2">
-<h2 id="orgeac993a">Michael Cardiff</h2>
-<div class="outline-text-2" id="text-orgeac993a">
-<div class="org-src-container">
-<pre class="src src-html">&lt;p align="center"&gt;&lt;img src="./me.jpg" /&gt;&lt;/p&gt;
-</pre>
+<div id="outline-container-org3d8758c" class="outline-2">
+<h2 id="org3d8758c">Michael Cardiff</h2>
+<div class="outline-text-2" id="text-org3d8758c">
+
+<div id="orgd268b6e" class="figure">
+<p><img src="./me.jpg" alt="me.jpg" />
+</p>
 </div>
+
 <p>
 Reach me at one of the following emails:
 </p>
@@ -214,52 +237,59 @@ Reach me at one of the following emails:
 </ul>
 </div>
 </div>
-<div id="outline-container-org215eb61" class="outline-2">
-<h2 id="org215eb61">Who am I?</h2>
-<div class="outline-text-2" id="text-org215eb61">
+<div id="outline-container-org3370819" class="outline-2">
+<h2 id="org3370819">Who am I?</h2>
+<div class="outline-text-2" id="text-org3370819">
 <p>
 I am a first year graduate student at Brandeis University, aspiring to study Experimental High Energy Physics
 </p>
 </div>
 </div>
-<div id="outline-container-org1161980" class="outline-2">
-<h2 id="org1161980"><span class="section-number-2">1.</span> Interesting Projects</h2>
-<div class="outline-text-2" id="text-1">
-<p>
-:PROPERTIES:
-:UNNUMBERED: t
-:END
-</p>
-
+<div id="outline-container-orgb5218fd" class="outline-2">
+<h2 id="orgb5218fd">Interesting Projects</h2>
+<div class="outline-text-2" id="text-orgb5218fd">
 <p>
 Most of my projects for either fun or classes can be found on my <a href="https://github.com/mcardoff">github</a> but here are some of the highlights
 </p>
 </div>
-<div id="outline-container-orga1e27c2" class="outline-3">
-<h3 id="orga1e27c2"><span class="section-number-3">1.1.</span> Numerical Solver for the Schrodinger Equation</h3>
-<div class="outline-text-3" id="text-1-1">
+<div id="outline-container-org78b643e" class="outline-3">
+<h3 id="org78b643e">Numerical Solver for the Schrodinger Equation</h3>
+<div class="outline-text-3" id="text-org78b643e">
+<p>
+Both of these solvers solve the Schrodinger Equation in 1-D for an arbitrary potential, in a box going from \(x=0\) to \(a\)
+</p>
 </div>
-<div id="outline-container-orgcd12c63" class="outline-4">
-<h4 id="orgcd12c63"><span class="section-number-4">1.1.1.</span> Matrix Method</h4>
+<div id="outline-container-org2813986" class="outline-4">
+<h4 id="org2813986">Matrix Method</h4>
+<div class="outline-text-4" id="text-org2813986">
+<p>
+Using the standard particle in a box states of sine functions, compute a Hamiltonian matrix \(H\), and diagonalize it
+</p>
 </div>
-<div id="outline-container-org9ec6a3a" class="outline-4">
-<h4 id="org9ec6a3a"><span class="section-number-4">1.1.2.</span> RK4 Method</h4>
+</div>
+<div id="outline-container-orgdca1a1e" class="outline-4">
+<h4 id="orgdca1a1e">RK4 Method</h4>
+<div class="outline-text-4" id="text-orgdca1a1e">
+<p>
+Simply solve the Schrodinger Differential equation numerically, using the Runge-Kutta 4 method.
+</p>
 </div>
 </div>
-<div id="outline-container-org0913587" class="outline-3">
-<h3 id="org0913587"><span class="section-number-3">1.2.</span> Racing Line Simulator Using Gradient Descent</h3>
 </div>
-<div id="outline-container-org3e26a60" class="outline-3">
-<h3 id="org3e26a60"><span class="section-number-3">1.3.</span> Koch Snowflake Fractal Generator</h3>
+<div id="outline-container-orgf16a291" class="outline-3">
+<h3 id="orgf16a291">Racing Line Simulator Using Gradient Descent</h3>
 </div>
-<div id="outline-container-orgf7b4b75" class="outline-3">
-<h3 id="orgf7b4b75"><span class="section-number-3">1.4.</span> Sorting Algorithm Visualizer</h3>
+<div id="outline-container-org11d98ac" class="outline-3">
+<h3 id="org11d98ac">Koch Snowflake Fractal Generator</h3>
+</div>
+<div id="outline-container-org5e86ce5" class="outline-3">
+<h3 id="org5e86ce5">Sorting Algorithm Visualizer</h3>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Michael Cardiff</p>
-<p class="date">Created: 2022-11-02 Wed 14:33</p>
+<p class="date">Created: 2022-11-02 Wed 14:52</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
