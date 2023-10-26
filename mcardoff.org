@@ -8,18 +8,21 @@
 [[file:./me.jpg]]
 
 Reach me at one of the following emails:
-- _mcardiff@brandeis.edu_ (preferred)
-- _mcardiff@hawk.iit.edu_
+- mcardiff [at] brandeis.edu (preferred)
+- mcardiff [at] hawk.iit.edu
 * Who am I?
-I am a first year graduate student at Brandeis University, aspiring to study Experimental High Energy Physics
+I am a second year graduate student at Brandeis University, aspiring to study Experimental High Energy Physics
+
+I am currently working in the ATLAS collaboration, mainly in tracking.
 * Interesting Projects
 Most of my projects for either fun or classes can be found on my [[https://github.com/mcardoff][github]] but here are some of the highlights
 ** Numerical Solver for the Schrodinger Equation
-Both of these solvers solve the Schrodinger Equation in 1-D for an arbitrary potential, in a box going from $x=0$ to $a$
+Both of these solvers solve the Schrodinger Equation in 1-D for an arbitrary potential, in a box going from $x=0$ to $x=a$
 *** Matrix Method
 Using the standard particle in a box states of sine functions, compute a Hamiltonian matrix $H$, and diagonalize it
 *** RK4 Method
 Simply solve the Schrodinger Differential equation numerically, using the Runge-Kutta 4 method.
 ** Racing Line Simulator Using Gradient Descent
+I used a naive gradient descent algorithm to perturb the central line of a racing circuit to turn into a more ideal racing line, using a cost function from a few different papers. This was the final project for one of my classes in undergrad 
 ** Koch Snowflake Fractal Generator
 ** Sorting Algorithm Visualizer
